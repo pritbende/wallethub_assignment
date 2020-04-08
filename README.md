@@ -31,7 +31,7 @@ WHpassword
 * TestNG
 * log4j
 * Screenshot on test failure
-* Extent Report - [View Here] (https://github.com/pritbende/wallethub_assignment/blob/master/ExtentReport/ExtentReport.html)
+* Extent Report - [View Here](https://github.com/pritbende/wallethub_assignment/blob/master/ExtentReport/ExtentReport.html)
 * GitHub
 
 
