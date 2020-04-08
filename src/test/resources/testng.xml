@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WalletHub Assignment" configfailurepolicy="continue">
+
+	<listeners>
+		<listener class-name="com.wallethub.util.TestListener"/>
+	</listeners>
+	
+	<test name="WalletHub Assignment Test Cases">
+		<classes>
+			<class name = "com.wallethub.test.FacebookTest"></class>
+			<class name = "com.wallethub.test.WalletHubTest"></class>
+		</classes>
+	</test>
+</suite>
