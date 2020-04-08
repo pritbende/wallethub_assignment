@@ -24,10 +24,10 @@ public class WalletHubTest extends BaseTest {
 				+ "This is the review for Health Insurance. This is the review for Health Insurance. "
 				+ "This is the review for Health Insurance. ";
 		whp.doLogin(prop.getProperty("WHemail"), prop.getProperty("WHpassword"));
-//		whp.clickReviews();
-//		whp.clickRatingStar(4);
-//		whp.selectDropdown(1);
-//		whp.writeReview(reviewText);
+		whp.clickReviews();
+		whp.clickRatingStar(4);
+		whp.selectDropdown(1);
+		whp.writeReview(reviewText);
 		Thread.sleep(5000);
 		
 		Assert.assertTrue(whp.viewMyReview());
